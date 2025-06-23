@@ -21,7 +21,7 @@ Designed to be flexible and testable, it supports multiple scraping targets and 
 
 ## Installation ## 
 
-git clone https://github.com/your-username/scraper-2.0.git
+git clone https://github.com/rwggomes/scraper-2.0.git
 cd scraper-2.0
 
 # Install dependencies
