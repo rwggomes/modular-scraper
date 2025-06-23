@@ -1191,3 +1191,80 @@ undefined
 [2025-06-23 14:06:09] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
 [2025-06-23 14:06:10] [INFO] Saved 87 items to output/oscars-2025-06-23_14-06-10.csv
 [2025-06-23 14:06:10] [INFO] Scraping completed in 7.84s
+[2025-06-23 14:07:12] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:07:13] [INFO] Selected target: hockey
+[2025-06-23 14:07:13] [INFO] Paginated: true
+[2025-06-23 14:07:13] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:07:13] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:07:15] [INFO] Navigating to 2: http://www.scrapethissite.com/pages/forms/?page=2
+[2025-06-23 14:07:17] [INFO] Navigating to 3: http://www.scrapethissite.com/pages/forms/?page=3
+[2025-06-23 14:07:19] [INFO] Saved 75 items to output/hockey-2025-06-23_14-07-19.csv
+[2025-06-23 14:07:19] [INFO] Scraping completed in 6.94s
+[2025-06-23 14:09:15] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:09:16] [INFO] Selected target: hockey
+[2025-06-23 14:09:16] [INFO] Paginated: true
+[2025-06-23 14:09:16] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:09:16] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:09:18] [INFO] Navigating to 2: http://www.scrapethissite.com/pages/forms/?page=2
+[2025-06-23 14:09:18] [ERROR] Error scraping page 2: Attempted to use detached Frame 'E3A1F355DFB5E2C56C3B326474D5938D'.
+[2025-06-23 14:09:18] [INFO] Navigating to 3: http://www.scrapethissite.com/pages/forms/?page=3
+[2025-06-23 14:09:18] [ERROR] Error scraping page 3: Attempted to use detached Frame 'E3A1F355DFB5E2C56C3B326474D5938D'.
+[2025-06-23 14:09:18] [INFO] Saved 25 items to output/hockey-2025-06-23_14-09-18.json
+[2025-06-23 14:09:18] [INFO] Scraping completed in 2.94s
+[2025-06-23 14:09:23] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:09:23] [INFO] Selected target: hockey
+[2025-06-23 14:09:23] [INFO] Paginated: true
+[2025-06-23 14:09:23] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:09:23] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:09:26] [INFO] Navigating to 2: http://www.scrapethissite.com/pages/forms/?page=2
+[2025-06-23 14:09:29] [INFO] Navigating to 3: http://www.scrapethissite.com/pages/forms/?page=3
+[2025-06-23 14:09:31] [INFO] Saved 75 items to output/hockey-2025-06-23_14-09-31.json
+[2025-06-23 14:09:31] [INFO] Scraping completed in 8.21s
+[2025-06-23 14:10:43] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:10:43] [INFO] Selected target: hockey
+[2025-06-23 14:10:43] [INFO] Paginated: true
+[2025-06-23 14:10:43] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:10:43] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:10:45] [INFO] Navigating to 2: http://www.scrapethissite.com/pages/forms/?page=2
+[2025-06-23 14:10:47] [INFO] Navigating to 3: http://www.scrapethissite.com/pages/forms/?page=3
+[2025-06-23 14:10:49] [INFO] Saved 75 items to output/hockey-2025-06-23_14-10-49.json
+[2025-06-23 14:10:49] [INFO] Scraping completed in 6.53s
+[2025-06-23 14:12:06] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:12:07] [INFO] Selected target: hockey
+[2025-06-23 14:12:07] [INFO] Paginated: true
+[2025-06-23 14:12:07] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:12:07] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:12:09] [INFO] Navigating to 2: http://www.scrapethissite.com/pages/forms/?page=2
+[2025-06-23 14:12:10] [INFO] Navigating to 3: http://www.scrapethissite.com/pages/forms/?page=3
+[2025-06-23 14:12:12] [INFO] Saved 75 items to output/hockey-2025-06-23_14-12-12.json
+[2025-06-23 14:12:12] [INFO] Scraping completed in 6.03s
+[2025-06-23 14:12:40] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:12:41] [INFO] Selected target: hockey
+[2025-06-23 14:12:41] [INFO] Paginated: true
+[2025-06-23 14:12:41] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:12:41] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:12:43] [INFO] Saved 25 items to output/hockey-2025-06-23_14-12-43.json
+[2025-06-23 14:12:43] [INFO] Scraping completed in 3.42s
+[2025-06-23 14:31:31] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:31:31] [INFO] Selected target: hockey
+[2025-06-23 14:31:31] [INFO] Paginated: true
+[2025-06-23 14:31:31] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:31:31] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:31:34] [INFO] Saved 25 items to output/hockey-2025-06-23_14-31-34.json
+[2025-06-23 14:31:34] [INFO] Scraping completed in 2.76s
+[2025-06-23 14:38:37] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:38:38] [INFO] Selected target: hockey
+[2025-06-23 14:38:38] [INFO] Paginated: true
+[2025-06-23 14:38:38] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:38:38] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:38:40] [INFO] Saved file: output/hockey-2025-06-23_14-38-40.json
+[2025-06-23 14:38:40] [INFO] Saved 25 items to output/hockey-2025-06-23_14-38-40.json
+[2025-06-23 14:38:40] [INFO] Scraping completed in 3.25s
+[2025-06-23 14:39:34] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:39:35] [INFO] Selected target: hockey
+[2025-06-23 14:39:35] [INFO] Paginated: true
+[2025-06-23 14:39:35] [INFO] [pagination.js] handlePagination started
+[2025-06-23 14:39:35] [INFO] Navigating to 1: http://www.scrapethissite.com/pages/forms/?page=1
+[2025-06-23 14:39:37] [INFO] Saved file: output/hockey-2025-06-23_14-39-37.json
+[2025-06-23 14:39:37] [INFO] Saved 25 items to output/hockey-2025-06-23_14-39-37.json
+[2025-06-23 14:39:37] [INFO] Scraping completed in 2.85s

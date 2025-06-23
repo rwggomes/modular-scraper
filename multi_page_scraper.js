@@ -159,8 +159,11 @@ const run = async () => {
     let results = [];
 
     const options = {
-      screenshot: argv.screenshot
-    };
+      screenshot: argv.screenshot,
+      debug: argv.debug,
+      downloadAssets: argv.downloadAssets
+};
+
 
     // Handling paginated vs. single-page targets
     if (paginated) {

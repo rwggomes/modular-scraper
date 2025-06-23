@@ -65,7 +65,7 @@ node multi_page_scraper.js --target oscars --limit 5 --delay 1500 --headless tru
 
 To add a new target module:
 
-1. Create a new file inside the `extractors/` directory (e.g., `myScraper.js`).
+1. Create a new file inside the `extractors/` directory (`newScraper.js`, for example).
 2. Export an `async` function that receives a `page` instance and returns the scraped data.
 3. Run the scraper with:
 
