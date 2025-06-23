@@ -1,19 +1,35 @@
 import fs from 'fs-extra';
-import { format } from 'date-fns';
+import path from 'path';
+import { format as formatDate } from 'date-fns';
 import { logInfo } from './logger.js';
+import pkg from 'csv-writer';
 
-export async function saveResults(data, target = 'results') {
-  const timestamp = format(new Date(), 'yyyy-MM-dd_HH-mm-ss');
+const { createObjectCsvWriter } = pkg;
+
+export async function saveResults(data, format = 'json', _outputPath = '', target = 'results') {
+  if (!data || data.length === 0) {
+    console.warn('No data to save.');
+    return;
+  }
+
+  // Always write to 'output/{target}-{timestamp}.{format}'
+  const timestamp = formatDate(new Date(), 'yyyy-MM-dd_HH-mm-ss');
   const folder = 'output';
+  const filename = `${target}-${timestamp}.${format}`;
+  const outputPath = path.join(folder, filename);
 
-  // Make sure the output folder exists
   await fs.ensureDir(folder);
 
-  // Build dynamic filename
-  const filename = `${target}-${timestamp}.json`;
-  const fullPath = `${folder}/${filename}`;
+  if (format === 'csv') {
+    const csvWriter = createObjectCsvWriter({
+      path: outputPath,
+      header: Object.keys(data[0]).map((key) => ({ id: key, title: key })),
+    });
 
-  // Save file
-  await fs.writeJson(fullPath, data, { spaces: 2 });
-  logInfo(`Saved ${data.length} items to ${fullPath}`);
+    await csvWriter.writeRecords(data);
+  } else {
+    await fs.writeJson(outputPath, data, { spaces: 2 });
+  }
+
+  logInfo(`Saved ${data.length} items to ${outputPath}`);
 }

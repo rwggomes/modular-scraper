@@ -1111,3 +1111,83 @@ undefined
 [2025-06-18 16:13:49] [INFO] Paginated: false
 [2025-06-18 16:13:50] [INFO] Saved 1 items to output/stealthTest-2025-06-18_16-13-50.json
 [2025-06-18 16:13:51] [INFO] Scraping completed in 2.10s
+[2025-06-23 13:35:52] [INFO] _____________ Scraping started_____________
+[2025-06-23 13:35:53] [INFO] Selected target: oscars
+[2025-06-23 13:35:53] [INFO] Paginated: false
+[2025-06-23 13:35:53] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+[2025-06-23 13:35:55] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 13:35:56] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+[2025-06-23 13:35:57] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+[2025-06-23 13:35:58] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+[2025-06-23 13:35:59] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+[2025-06-23 13:36:00] [INFO] Saved 87 items to output/oscars-2025-06-23_13-36-00.json
+[2025-06-23 13:36:00] [INFO] Scraping completed in 7.99s
+[2025-06-23 13:50:23] [INFO] _____________ Scraping started_____________
+[2025-06-23 13:50:24] [INFO] Selected target: oscars
+[2025-06-23 13:50:24] [INFO] Paginated: false
+[2025-06-23 13:50:24] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+[2025-06-23 13:50:26] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 13:50:27] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+[2025-06-23 13:50:28] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+[2025-06-23 13:50:29] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+[2025-06-23 13:50:30] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+[2025-06-23 13:50:31] [INFO] Saved 87 items to data/oscars.csv
+[2025-06-23 13:50:31] [INFO] Scraping completed in 8.06s
+[2025-06-23 13:51:08] [INFO] _____________ Scraping started_____________
+[2025-06-23 13:51:09] [INFO] Selected target: oscars
+[2025-06-23 13:51:09] [INFO] Paginated: false
+[2025-06-23 13:51:09] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 13:51:10] [INFO] Saved 15 items to output.json
+[2025-06-23 13:51:11] [INFO] Scraping completed in 2.23s
+[2025-06-23 13:54:46] [INFO] _____________ Scraping started_____________
+[2025-06-23 13:54:47] [INFO] Selected target: oscars
+[2025-06-23 13:54:47] [INFO] Paginated: false
+[2025-06-23 13:54:47] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 13:54:48] [INFO] Saved 15 items to output/oscars-2025-06-23_13-54-48.json
+[2025-06-23 13:54:48] [INFO] Scraping completed in 2.26s
+[2025-06-23 13:55:11] [INFO] _____________ Scraping started_____________
+[2025-06-23 13:55:12] [INFO] Selected target: oscars
+[2025-06-23 13:55:12] [INFO] Paginated: false
+[2025-06-23 13:55:12] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+[2025-06-23 13:55:13] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 13:55:14] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+[2025-06-23 13:55:16] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+[2025-06-23 13:55:16] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+[2025-06-23 13:55:18] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+[2025-06-23 13:55:19] [INFO] Saved 87 items to output/oscars-2025-06-23_13-55-19.csv
+[2025-06-23 13:55:19] [INFO] Scraping completed in 7.63s
+[2025-06-23 14:00:30] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:00:31] [INFO] Selected target: oscars
+[2025-06-23 14:00:31] [INFO] Paginated: false
+[2025-06-23 14:00:31] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 14:00:33] [INFO] Saved 15 items to output/oscars-2025-06-23_14-00-33.csv
+[2025-06-23 14:00:33] [INFO] Scraping completed in 2.38s
+[2025-06-23 14:01:04] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:01:05] [INFO] Selected target: oscars
+[2025-06-23 14:01:05] [INFO] Paginated: false
+[2025-06-23 14:01:05] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 14:01:06] [INFO] Saved 15 items to output/oscars-2025-06-23_14-01-06.csv
+[2025-06-23 14:01:06] [INFO] Scraping completed in 2.09s
+[2025-06-23 14:02:37] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:02:37] [INFO] Selected target: oscars
+[2025-06-23 14:02:37] [INFO] Paginated: false
+[2025-06-23 14:02:37] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 14:02:39] [INFO] Saved 15 items to output/oscars-2025-06-23_14-02-39.csv
+[2025-06-23 14:02:39] [INFO] Scraping completed in 2.06s
+[2025-06-23 14:02:46] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:02:47] [INFO] Selected target: oscars
+[2025-06-23 14:02:47] [INFO] Paginated: false
+[2025-06-23 14:02:47] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 14:02:48] [INFO] Saved 15 items to output/oscars-2025-06-23_14-02-48.json
+[2025-06-23 14:02:48] [INFO] Scraping completed in 2.04s
+[2025-06-23 14:06:02] [INFO] _____________ Scraping started_____________
+[2025-06-23 14:06:03] [INFO] Selected target: oscars
+[2025-06-23 14:06:03] [INFO] Paginated: false
+[2025-06-23 14:06:03] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2010
+[2025-06-23 14:06:04] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2011
+[2025-06-23 14:06:05] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2012
+[2025-06-23 14:06:07] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2013
+[2025-06-23 14:06:07] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2014
+[2025-06-23 14:06:09] [INFO] Navigating to http://www.scrapethissite.com/pages/ajax-javascript/?ajax=true&year=2015
+[2025-06-23 14:06:10] [INFO] Saved 87 items to output/oscars-2025-06-23_14-06-10.csv
+[2025-06-23 14:06:10] [INFO] Scraping completed in 7.84s

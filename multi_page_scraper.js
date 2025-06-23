@@ -24,7 +24,7 @@ let parser = yargs(hideBin(process.argv))
     default: 'root',
   });
 
-// Define supported scraping targets and their configurations
+
 const TARGETS = {
     stealthTest: {
     extractor: scrapeStealthTest,
@@ -88,11 +88,6 @@ const argv = parser
     describe: 'Output format',
     choices: ['json', 'csv'],
     default: 'json',
-  })
-  .option('output', {
-    describe: 'Path to save scraped output',
-    type: 'string',
-    default: 'output.json',
   })
   .option('log', {
     describe: 'Path to log file',
@@ -167,22 +162,22 @@ const run = async () => {
       screenshot: argv.screenshot
     };
 
-    // Handle paginated vs. single-page scraping
+    // Handling paginated vs. single-page targets
     if (paginated) {
       results = await handlePagination(page, limit, delay, baseUrl, extractor, options);
 
     } else {
-      results = await extractor(page, argv); // Direct call for non-paginated target
+      results = await extractor(page, argv); // For non-paginated targets
     }
 
-    // Save results unless in dry-run mode
-    await saveResults(results, target);  // "target" comes from CLI arg
+    //Results are saved UNLESS dry-run is enabled
+    await saveResults(results, argv.format, '', target);  // "target" comes from CLI argument
 
 
   } catch (err) {
     console.error('Fatal error:', err);
   } finally {
-    await browser.close();  // Ensure browser closes even on error
+    await browser.close();  
     logEnd(start);          // Log completion and duration
   }
 };
